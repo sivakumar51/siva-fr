@@ -98,7 +98,6 @@ const ProductList = ({ searchTerm, addToCart }) => {
     products.reduce((acc, product) => ({ ...acc, [product.id]: 1 }), {})
   );
 
-  // Filter products based on the search term
   const filteredProducts = products.filter(product =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -106,7 +105,7 @@ const ProductList = ({ searchTerm, addToCart }) => {
   const handleQuantityChange = (id, delta) => {
     setQuantities(prevQuantities => ({
       ...prevQuantities,
-      [id]: Math.max((prevQuantities[id] || 1) + delta, 1), // Ensure quantity stays at least 1
+      [id]: Math.max((prevQuantities[id] || 1) + delta, 1), 
     }));
   };
 
@@ -114,12 +113,12 @@ const ProductList = ({ searchTerm, addToCart }) => {
     const quantity = quantities[product.id];
     if (quantity > 0) {
       addToCart({ ...product, quantity });
-      handleQuantityChange(product.id, -quantity); // Reset quantity after adding to cart
+      handleQuantityChange(product.id, -quantity); 
     }
   };
 
   return (
-    <div>
+ 
       <div className="product-grid">
         {filteredProducts.length > 0 ? (
           filteredProducts.map(product => (
@@ -143,7 +142,6 @@ const ProductList = ({ searchTerm, addToCart }) => {
           <p>No products found.</p>
         )}
       </div>
-    </div>
   );
 };
 

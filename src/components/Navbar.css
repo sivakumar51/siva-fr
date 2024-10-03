@@ -46,3 +46,71 @@
 .nav-link svg {
   margin-right: 0.5rem;
 }
+
+
+@media (max-width:769px) {
+  .navbar {
+      grid-template-columns: 1fr; 
+  }
+  .navbar-logo{
+    margin-left: 35px;
+    font-size: larger;
+  }
+  .navbar-search{
+    padding-top: 10px;
+  }
+  .navbar-links{
+    padding: 1.4rem;
+    gap:6.5rem;
+    justify-content: end;
+  }
+  .nav-link{
+    font-size: large;
+  }
+  
+}
+
+@media (max-width: 426px) {
+  .navbar {
+      grid-template-columns: 1fr; 
+  }
+  .navbar-logo{
+    margin-left: 15px;
+    font-size: larger;
+  }
+  .navbar-search{
+    padding-top: 10px;
+  }
+  .navbar-links{
+    flex-direction: column;
+    padding: 1.4rem;
+    gap:1.5rem;
+    justify-content: end;
+  }
+  .nav-link{
+    font-size: large;
+  }
+  
+}
+@media (max-width: 376px) {
+  .navbar {
+      grid-template-columns: 1fr; 
+  }
+  .navbar-logo{
+    margin-left: 15px;
+    font-size: larger;
+  }
+  .navbar-search{
+    padding-top: 10px;
+  }
+  .navbar-links{
+    flex-direction: column;
+    padding: 1.4rem;
+    gap:1.5rem;
+    justify-content: end;
+  }
+  .nav-link{
+    font-size: large;
+  }
+  
+}

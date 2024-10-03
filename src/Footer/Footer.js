@@ -1,63 +1,64 @@
 import React from 'react';
-import './Footer.css'; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faWhatsapp, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import './Footer.css';
 
 const Footer = () => {
   return (
     <footer className="footer">
-       
-         
-  < div  className='footer-row-1'>
-      <div className="footer-item"><p>About</p></div>
-      <div className="footer-item">Contact</div>
-      <div className="footer-item">information</div>
-      <div className="footer-item">customers</div>
-      <div className="footer-item">FR Aim</div>
+
+
+      < div className='footer-row-1'>
+        <div className="footer-item"><h3>About</h3></div>
+        <div className="footer-item"><p>Contact</p></div>
+        <div className="footer-item"><p>information</p></div>
+        <div className="footer-item"><p>customers</p></div>
+        <div className="footer-item"><p>FR Aim</p></div>
       </div>
 
- < div  className='footer-row-2'>
-         <div className="footer-item"><p>Help</p></div>
-      <div className="footer-item">Payments</div>
-      <div className="footer-item">Shipping</div>
-      <div className="footer-item">Returns</div>
-      <div className="footer-item">Report</div>
-      <div className="footer-item">Querys</div></div>
+      < div className='footer-row-2'>
+        <div className="footer-item"><h3>Formers policy</h3></div>
+        <div className="footer-item"><p>Returns</p></div>
+        <div className="footer-item"><p>privacy</p></div>
+        <div className="footer-item"><p>Compliance</p></div>
+        <div className="footer-item"><p>Term of users</p></div>
+      </div>
 
-      < div  className='footer-row-3'>
-         <div className="footer-item"><p>Formers policy</p></div>
-      <div className="footer-item">Returns</div>
-      <div className="footer-item">privacy</div>
-      <div className="footer-item">Compliance</div>
-      <div className="footer-item">Term of users</div>
-      <div className="footer-item">Fr cart</div></div>
+      < div className='footer-row-3'>
+        <div className="footer-item"><h3>Help</h3></div>
+        <div className="footer-item"><p>Payments type</p></div>
+        <div className="footer-item"><p>Shipping help</p></div>
+        <div className="footer-item"><p>Returns policy</p></div>
+        <div className="footer-item"><p>Report</p></div>
+      </div>
 
-      < div  className='footer-row-4'>
-       <div className="footer-item"><p>Frs Groups</p></div>
-      <div className="footer-item">Organic FRS</div>
-      <div className="footer-item">SKS Frs</div>
-      <div className="footer-item">Con&in FRS</div>
+
+      < div className='footer-row-4'>
+        <div className="footer-item"><h3>Frs  Groups</h3></div>
+        <div className="footer-item"><p>Organic  FRS</p></div>
+        <div className="footer-item"><p>SKS  Frs</p></div>
+        <div className="footer-item"><p>Con&in  FRS</p></div>
+        <div className="footer-item"><p>karalan  FRS</p></div>
+      </div>
+
+      
+
+      < div  className='footer-row-5'>
+       <div> <h3>basic details</h3></div>
+       <div><p>About Frs</p></div>
+       <div><p>Careers</p></div>
+       <div><p>Press Releases</p></div>
        </div>
+       
 
-       <div className='footer-row-5'>
-       <div>
-         <p>Contact Us</p>
-  </div>
-  <div>
-    <FontAwesomeIcon icon={faInstagram} size="2x" /> Instagram
-  </div>
-  <div>
-    <FontAwesomeIcon icon={faWhatsapp} size="2x" /> WhatsApp
-  </div>
-  <div>
-    <FontAwesomeIcon icon={faTwitter} size="2x" /> Twitter
-  </div>
-  <div>
-    <FontAwesomeIcon icon={faYoutube} size="2x" /> YouTube
-  </div>
-</div>
+< div  className='footer-row-6'>
+       <div> <h3>Sell on Frs</h3> </div>
+       <div><p>Protect,Build Frs</p></div>
+       <div><p>Supply to Amazons</p></div>
+       <div><p>Make Money with Us</p></div>
+       </div>
+       
 
     </footer>
+    
   );
 };
 

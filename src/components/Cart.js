@@ -28,7 +28,7 @@ const Cart = ({ cartItems, updateCart, removeFromCart }) => {
           {cartItems.map(item => (
             <li key={item.id} className="cart-item">
               <img src={item.image} alt={item.name} />
-              <div>
+              <div className='cart-response'>
                 <div>{item.name} </div>
                 <div><p>Quantity:{item.quantity}</p> </div>
                 <div><p>Seller:{item.Seller}</p> </div>

@@ -5,6 +5,7 @@ import Cart from './components/Cart';
 import Navbar from './components/Navbar';
 import ImageSlider from './ImageSlider/ImageSlider'; 
 import Footer from './Footer/Footer';
+import Footersocial from './Footer/Foodersocial';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -54,6 +55,7 @@ const App = () => {
         <Route path="/cart" element={<Cart cartItems={cartItems} updateCart={updateCart} removeFromCart={removeFromCart} />} />
       </Routes>
       <Footer/>
+      <Footersocial/>
     </Router>
   );
 };
