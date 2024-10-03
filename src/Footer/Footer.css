@@ -1,0 +1,24 @@
+.footer {
+    display: grid;
+    height: 300px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color:#232f3e;
+    padding: 1rem;
+    color: #fff;
+    text-align: center; 
+  }
+
+  .footer-item {
+    padding: 0.5rem; 
+  }
+ .footer-row-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .footer-row-5 > div {
+    margin-bottom: 10px; 
+  }
+  
+  
