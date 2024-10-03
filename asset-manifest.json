@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/siva-fr/static/css/main.636e1f50.css",
-    "main.js": "/siva-fr/static/js/main.96600c8d.js",
+    "main.css": "/siva-fr/static/css/main.7f1c6cbd.css",
+    "main.js": "/siva-fr/static/js/main.fba747c6.js",
     "static/media/5.png.jpg": "/siva-fr/static/media/5.png.36700458e0e12844f0f6.jpg",
     "static/media/1.png.jpg": "/siva-fr/static/media/1.png.9e5297e84989b31c08ed.jpg",
     "static/media/6.png.jpg": "/siva-fr/static/media/6.png.3e733c3eafdd0e276603.jpg",
@@ -18,11 +18,11 @@
     "static/media/9.png.jpg": "/siva-fr/static/media/9.png.cf6ac1dfa43e5ec1a762.jpg",
     "static/media/13.png.jpg": "/siva-fr/static/media/13.png.b92cc08c52fddeb40aa5.jpg",
     "index.html": "/siva-fr/index.html",
-    "main.636e1f50.css.map": "/siva-fr/static/css/main.636e1f50.css.map",
-    "main.96600c8d.js.map": "/siva-fr/static/js/main.96600c8d.js.map"
+    "main.7f1c6cbd.css.map": "/siva-fr/static/css/main.7f1c6cbd.css.map",
+    "main.fba747c6.js.map": "/siva-fr/static/js/main.fba747c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.636e1f50.css",
-    "static/js/main.96600c8d.js"
+    "static/css/main.7f1c6cbd.css",
+    "static/js/main.fba747c6.js"
   ]
 }
