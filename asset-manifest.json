@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/siva-fr/static/css/main.636e1f50.css",
+    "main.js": "/siva-fr/static/js/main.96600c8d.js",
+    "static/media/5.png.jpg": "/siva-fr/static/media/5.png.36700458e0e12844f0f6.jpg",
+    "static/media/1.png.jpg": "/siva-fr/static/media/1.png.9e5297e84989b31c08ed.jpg",
+    "static/media/6.png.jpg": "/siva-fr/static/media/6.png.3e733c3eafdd0e276603.jpg",
+    "static/media/4.png.jpg": "/siva-fr/static/media/4.png.ecc2209ea8c83ea943ab.jpg",
+    "static/media/15.png.jpg": "/siva-fr/static/media/15.png.ad1d4287cfd89e3444b1.jpg",
+    "static/media/8.png.jpg": "/siva-fr/static/media/8.png.741d10067878955c8336.jpg",
+    "static/media/2.png.jpg": "/siva-fr/static/media/2.png.b278290e9d929a24816c.jpg",
+    "static/media/11.png.jpg": "/siva-fr/static/media/11.png.5d3b804f3c6123cb8a48.jpg",
+    "static/media/3.png.jpg": "/siva-fr/static/media/3.png.79ce99e2b711aaaa87c8.jpg",
+    "static/media/14.png.jpg": "/siva-fr/static/media/14.png.353c7aded5fa8381eeba.jpg",
+    "static/media/16.png.jpg": "/siva-fr/static/media/16.png.a7918bbc5c97900e002c.jpg",
+    "static/media/10.png.jpg": "/siva-fr/static/media/10.png.06bea744869cc572baf1.jpg",
+    "static/media/12.png.jpg": "/siva-fr/static/media/12.png.a6375a0925bb0dcf0dd8.jpg",
+    "static/media/9.png.jpg": "/siva-fr/static/media/9.png.cf6ac1dfa43e5ec1a762.jpg",
+    "static/media/13.png.jpg": "/siva-fr/static/media/13.png.b92cc08c52fddeb40aa5.jpg",
+    "index.html": "/siva-fr/index.html",
+    "main.636e1f50.css.map": "/siva-fr/static/css/main.636e1f50.css.map",
+    "main.96600c8d.js.map": "/siva-fr/static/js/main.96600c8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.636e1f50.css",
+    "static/js/main.96600c8d.js"
+  ]
+}
